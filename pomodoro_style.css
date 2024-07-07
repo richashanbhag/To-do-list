@@ -6,17 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    background-color:rgba(00, 00, 00, 0.5);
+body {
+    background-color: rgba(0, 0, 0, 0.5);
     background-image: url("background\ img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.container{
+.container {
     color: #fff;
     background-color: rgb(0, 0, 75);
     padding: 50px;
@@ -24,6 +21,7 @@ body{
     height: auto;
     width: 500px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    margin-top: 50px; /* Add margin to push the container down */
 }
 
 .timer {

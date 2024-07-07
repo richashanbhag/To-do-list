@@ -7,31 +7,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
     <link rel="stylesheet" href="pomodoro_style.css">
     <title>Pomodoro Timer</title>
 </head>
 <body>
-   
-        <nav class="navbar navbar-inverse">
+        
+       
+        <header>
+          <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
                 <a class="navbar-brand" href="index.html"><img  style="width: 35px; height: 35px; border-radius: 50%;" src="to-do-list-logo.jpg" alt="Logo"></a>
               </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  
-                  <li style="font-size: x-large; font-weight: bolder;" class="action"><a href="pomodoro.html">Pomodoro Timer</a></li>
-                  
-                </ul>
+              <ul class="nav navbar-nav">
+                <li class="active" style="font-size: x-large; font-weight: bolder;"><a href="pomodoro.html">Pomodoro Timer</a></li>
                 
-              </div>
+              </ul>
             </div>
           </nav>
+        </header>
         <div class="container">
             <h1>Pomodoro Timer</h1>
             <div class="timer">25:00</div>
@@ -53,7 +48,7 @@
                 <div class="session-count"></div>
             </div>
         </div>
-    
+      
     
     
     <audio src="https://assets.codepen.io/191815/bing.mp3" id="alert-sound"></audio>
