@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    font-size: xxx-large;
+}
+body{
+    background-color:rgba(00, 00, 00, 0.5);
+    
+    background-image: url("background\ img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    max-width: 500px;
+    margin: 120px auto 0 auto;
+    
+}
+.stats-container{
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    gap: 50px;
+    justify-content: space-between;
+    width: 100%;
+}
+#progress{
+    width: 0%;
+    height: 10px;
+    background-color:black;
+    border-radius: 10px;
+    border-color:black;
+    transition: all 0.3sec ease;
+}
+.details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+}
+#numbers{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#progressBar{
+    width: 100%;
+    height: 10px;
+    background-color: white ;
+    opacity: 0.75;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin: 10px;
+
+}
+form{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+input{
+    flex: 1;
+    padding: 16px;
+    background: var(--secondaryBackground);
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+}
+#task-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+.taskItem{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskItem img{
+ height: 24px;
+ width: 24px;
+ margin: 0 10px;
+ cursor: pointer;   
+}
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.task input{
+    width: 20px;
+    height: 20px;
+}
+.task.completed{
+    text-decoration: line-through;
+    color:var(--teal);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ 
