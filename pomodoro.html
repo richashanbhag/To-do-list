@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="pomodoro_style.css">
     <title>Pomodoro Timer</title>
 </head>
 <body>
         
        
-        <header>
-          <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="index.html"><img  style="width: 35px; height: 35px; border-radius: 50%;" src="to-do-list-logo.jpg" alt="Logo"></a>
-              </div>
-              <ul class="nav navbar-nav">
-                <li class="active" style="font-size: x-large; font-weight: bolder;"><a href="pomodoro.html">Pomodoro Timer</a></li>
+  <header>
+    <nav class="navbar">
+        <a href="index.html" ><i class='bx bx-list-check'></i></a>
+        <a href="#" class="active"><i class='bx bx-timer'></i></a>
+    </nav>
+  </header>
+  <div class="container1">
+    <div class="stats-container1">
+            <div class="details">
+              <centre><h1 class="head" style="color: white; text-align: center;" >The Pomodoro Technique: <br>Work for 25 minutes, then take a 5-minute break. <br>Repeat for enhanced focus and productivity.</h1>
+              </centre></div>  
                 
-              </ul>
-            </div>
-          </nav>
-        </header>
+        </div>
+</div>
         <div class="container">
             <h1>Pomodoro Timer</h1>
             <div class="timer">25:00</div>
@@ -40,7 +42,7 @@
                 <input type="number" id="work-time" name="work-time" min="1" max="120" value="25">
                 <label for="break-time">Break Time:</label>
                 <input type="number" id="break-time" name="break-time" min="1" max="120" value="5">
-                <button type="submit">Save</button>
+                <button class="submit" type="submit">Save</button>
             </form>
     
             <div class="session">
