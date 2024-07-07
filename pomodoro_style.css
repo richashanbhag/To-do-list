@@ -24,12 +24,41 @@ body {
     margin-top: 50px; /* Add margin to push the container down */
 }
 
+.navbar i{
+    font-size: 3.6rem;
+    padding-top: 10px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar a{
+    font-size: 2.3rem;
+    color: white;
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.submit{
+    color: black;
+}
+
+input{
+    color: black;
+}
+
+.navbar a:hover{
+    font-size: 2.5rem;
+}
+.navbar a.active{
+    color: var(--main-color);
+}
+
 .timer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 100px;
     margin-bottom: 10px;
 }
@@ -158,3 +187,36 @@ input {
     color: white;
     text-align: center;
  }
+
+ .container1 {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+.stats-container1{
+    padding: 2%;
+    border-radius: 10px;
+    border: 2px solid black;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    opacity: 70%;
+    align-items: center;
+}
+
+.head{
+    font-size: 2.5rem;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+ @media (max-width:425px) {
+    .timer{
+        font-size: 70px;
+    }}
