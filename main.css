@@ -129,7 +129,7 @@ input{
     color: black;
 }
 button{
-    height: 50px;
+    height: 55px;
     width: 50px;
     border-radius: 5px;
     display: flex;
@@ -149,6 +149,10 @@ button{
     margin-top: 30px;
     width: 100%;
 }
+.task p{
+    padding-top: 10px;
+}
+
 .taskItem{
     display: flex;
     background-color: white;
@@ -172,6 +176,8 @@ button{
 .task input{
     width: 20px;
     height: 20px;
+   
+    
 }
 .task.completed{
     text-decoration: line-through;
